@@ -14,8 +14,8 @@ hash_behaviour = merge
 ## Install
 Just add the role to your ``requirements.yml`` file:
 ```yaml
-- src: https://github.com/feffi/ansible-macos-finder.git
-  name: feffi.macos-finder
+- src: https://github.com/uschti/ansible-macos-finder.git
+  name: uschti.macos-finder
 ```
 
 ## Role Variables
@@ -126,7 +126,7 @@ macos_finder:
   sidebar_show: true
 
   # Set Finder sidebar width in pixel
-  sidebar_width: 134
+  sidebar_width: 134.0
 
   # Group files by Kind, Name, Application, Date Last Opened, Date Added, Date Modified, Date Created, Size, Tags, None
   group_by: "Kind"
@@ -175,7 +175,7 @@ None.
           icon_show_info: true
           icon_label_bottom: true
           sidebar_show: true
-          sidebar_width: 134
+          sidebar_width: 134.0
           group_by: "Kind"
       roles:
         - { role: feffi.macos-finder }
@@ -221,7 +221,7 @@ Or with local parameters:
               icon_show_info: true,
               icon_label_bottom: true,
               sidebar_show: true,
-              sidebar_width: 134,
+              sidebar_width: 134.0,
               group_by: "Kind"
             }
           }

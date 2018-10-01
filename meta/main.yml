@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Kevin Wennemuth
+  author: Andrea Pellegrini
   description: Ansible role to manage finder settings in macOS.
   license: MIT
   min_ansible_version: 2.4.0.0

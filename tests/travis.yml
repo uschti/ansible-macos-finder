@@ -38,7 +38,7 @@
       icon_show_info: true
       icon_label_bottom: true
       sidebar_show: true
-      sidebar_width: 134
+      sidebar_width: 134.0
       group_by: "Kind"
   roles:
     - { role: ansible-macos-finder }
